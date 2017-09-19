@@ -1,0 +1,161 @@
+---
+title: "outline"
+author: "Rick O. Gilmore"
+date: "`r Sys.time()`"
+bibliography: bibliography.bib
+csl: apa-5th-edition.csl
+output: 
+  github_document:
+    toc: true
+    toc_depth: 5
+---
+
+```{r setup, include=FALSE}
+require("citr")
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+# What brains do and how to study their construction
+
+- [@Johnson2008-wv]
+
+## Why brains?
+
+- Design principles [@Sterling2017-vy]
+
+### Evolving a human brain
+
+- How do human brains differ from other closely related species? [@Herculano-Houzel2015-rs; @Herculano-Houzel2017-gf; @Azevedo2009-er]; also Jerison [@Jerison1976-pi; @Jerison1985-dj; @Jerison1991-ui; @Jerison2012-hl]
+- trade-offs between size, developmental duration, energy expenditure
+- foraging theory
+
+### Brain organization for behavior
+
+- Biological imperatives
+    - Ingestion
+    - Defense
+    - Reproduction
+- Action primitives
+    - Locomote
+        - Approach/avoid/freeze
+    - Examine/explore
+    - Manipulate
+    - Consume
+    - Mate
+    - Signal
+- Cajal/Swanson 
+- Cultural contributions
+    - Communication
+    - Observational learning
+    - Extended temporal horizons
+
+## Measuring brain and behavior
+
+### Behavioral measures
+
+- Video, audio & other observational
+- Computer-based task
+    - Accuracy, response time
+- Gaze tracking
+- Kinematic
+- Self/other report
+
+### Structural methods
+
+#### Voxel-based morphometry and DTI
+
+### Functional methods
+
+#### EEG, MEG and related methods
+
+#### Functional MRI
+
+# How brains develop
+
+## General principles
+
+- Progression/regression or proliferation/pruning
+- Critical/sensitive periods
+- Earlier refs 
+
+## Prenatal
+
+### Micro
+
+- Neurulation
+- Neuro- and gliogenesis
+- Migration
+- Differentiation
+- Axonal migration
+- Synaptogenesis
+- Neural apoptosis
+- Synaptic pruning
+
+### Molar
+
+## Infant/toddler period
+
+- Synaptic growth & pruning, areal specificity [@Huttenlocher1997-at; Huttenlocher1990-nm]
+- Metabolic growth [@Chugani1987-yl; @Chugani1986-lw; @Chugani1996-ey]
+
+### Connectivity
+
+- White matter development [@Braga2015-xl]
+- Asymmetry in white matter and language development [@OMuircheartaigh2013-vu]
+
+## Childhood
+
+- Cortical thickness declines [@Remer2017-ec]
+    - Also Shaw, Gogtay, Giedd [@Shaw2006-xp; @Shaw2008-dq]
+- White matter [@Croteau-Chonka2016-ib]
+- Metabolic demands peak [@Kuzawa2014-qd]
+
+## Adolescence
+
+- Changes in functional connectivity [@Cao_undated-yi] -- reduced modularity
+
+## Lifespan
+
+# Future directions
+
+## Theoretical/Conceptual
+
+- Individual differences
+- Stress, reactivity, and resilience
+    - Poverty, etc.
+    - Bucharest orphans, etc.
+- Nutrition
+    - Lozoff, Georgieff
+- Sleep
+- Brain/behavior relationships
+    - From how the brain develops to why
+- Energetics
+- Why the extended childhood?
+    - Konner, Herculano-Houzel
+- Developmental disorder and disease
+- Making old brains new again
+    - Restoring plasticity
+        - Takao Hensch
+        - Stem cell transplants
+- Role of theory
+    - [@Frank2015-uf]
+    - Inferring structure/function relationships in systems neuroscience [@Swanson2016-qr]
+
+## Methodology
+
+- Multivariate non-linear dynamics
+- Networks all the way down (e.g., [@Byrge2014-ct])
+- Standardization of collection, metadata, analysis pathways (e.g. BIDS)
+- Big Data in developmental science, e.g. [@Gilmore2016-ir]
+    - Baby Connectome (http://babyconnectomeproject.org/), The Developing Human Connectome (http://www.developingconnectome.org/), and other big data neuroscience projects
+    - ECHO
+- Data sharing and open science
+    - Allen Brain Atlas
+    - Databrary
+    - Many Labs and Many Babies
+
+# Conclusion
+
+# References
